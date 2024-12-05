@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+@layer base {
+  input {
+    @apply border-2 border-gray-300 rounded-lg focus:outline-none focus:border-blue-500;
+  }
+}
